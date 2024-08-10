@@ -1,0 +1,205 @@
+.heading1{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: azure;
+    padding:10px 10;
+    
+}
+
+header{
+    position:fixed;
+    top:80px;
+    background-color:aqua;
+}
+nav a{
+    float:left;
+    text-decoration-color: darkorchid;
+    font-size: 30px;
+    text-decoration:none;
+    padding:0px 10px 0px 10px;
+}
+nav a:hover{
+    background-color:chartreuse;
+    padding-bottom:0px;
+    color:white;
+}
+nav a:active{
+    color:darkred;
+}
+#homes{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKoAtQMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBAf/xAAqEAEBAAIBBAAFAgcAAAAAAAAAAQIRMQMSIUEEEzJhcVKBM0JRcpGhsf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERAjES/9oADAMBAAIRAxEAPwD6sArIsIANMgNJYsUGYAAAA1hl21kCx1yjm6Y3eP4ZqudZigIAAAAAA5rCCOoAAsIANMgNMtQoMgQCKANdO6yXKaZnLWXEGOmRIqsgAAAAAMAI6ixFAAAIRQI1WVgILUAAQJy636HKct3hWemRIqsAAAAAAMAsR1AACCgAICxAGqy0lBCEVRceVzTHlcxnqsgK5gAoAAADCpP9KjqAARQQAFAIoNRKsSggJQqkQGKtFiKyAAAJQCKGPL0ep23ty4d/HLy5Tca6fUuE1nPBWpXoITKZTxdxRvQBAAUUVAaiVZy59TqzG+f8Ia1bpju3XOW5XdbxisWtRSRoDEp7iXlWQAAEqUiUAdJHGxix3sYuKubjMssL4rrh8RjfGXj7s5YueWPhKsr2TLHL6buK8WO9eG5llOLlBvXqHm78/wBV/c7s/wBV/YNeq/nTN6mM4y8/0eXeV+q2l4E10z+It8a0xJbd1ceHTGCGMdcUkaAipFEPcS8rEVABKJUPYNcwAGjSWNpYrm52OdjvYzYDjIuls1WolViRdN9poGNJY62M6E1nHxXaRz06Y5ehWiKAAARCioM1usX2lEis4+2hueAA02CK5KzY1UoMWMzxXRmwGp5HPfZ5WdXHLlKaos8lUZqf9bZqUaxy3+WnL7p8+S6oa61YxMplw1FGqgAVzybrGSUTDmtuWH1Oto3PAIo00CxXIhSpuTkRKzdTkyzk4Ys2JrOW7yxY6zE7RNcse7H6Wvm5e5K3cU7A1n5uX6YzepleJI12mtA53uy+radrrok0Ixj3Y3xXfHqzixz0lgsr0yy8LXl8zi1udTKfzX8C/UdvTlU+bfcc8utPeNF2LfFleiefLwZfEYy/TXT4f4udTG49t3ijXNescfnX1JoHV1vVx+6fNx+7lBXlvVb+ZaefZiobqNEWASGlBU0aPa0GNGmgGdFjVQGbE01QGbE01UEYyjlli9DnmLHj6mLjhlej1JlOPcevPh5s+YNR78bMpLOKOXwH8C/3UHeP/9k=);
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding:120px;
+    margin-top: 150px;
+    height: 100vh;
+}
+button{
+    background-color: #5ef277;
+    margin-left: 150px;
+    margin-top: 80px;
+    border-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover{
+    background-color: cadetblue;
+    color: ghostwhite;
+}
+#formContainer {
+            display: none;
+            margin-left: 400px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+#formPopup:target + #formContainer {
+        display: block;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+#thankYouMessage {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #28a745;
+            border-radius: 5px;
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+#thankYou:target + #thankYouMessage {
+            display: block;
+        }
+
+#abouts{
+    padding: 120px;
+    height: 100vh;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDUta3VsLTAzLmpwZw.jpg);
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;  
+}
+#educations{
+    padding: 120px;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1169174136/photo/textbooks-on-wooden-school-desk-with-chalkboard.webp?b=1&s=170667a&w=0&k=20&c=asZUlSwcxjJNPB-etdSczDCzo5cY3NX3JC8CNuZzAZc=);
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;   
+}
+.box {
+            color:#fff2f2;
+            font-size: 20px;
+            display: flex; /* Aligns the image and text side by side */
+            align-items: center; /* Centers the text vertically */
+            border: 3px solid black; /* Adds a border around the box */
+            padding: 10px; /* Adds padding inside the box */
+            width: 600px; /* Sets the width of the box */
+            margin: 20px auto; /* Centers the box horizontally */
+        }
+#skills{
+    padding: 120px;
+    background-image: url(https://img.freepik.com/free-photo/top-view-abstract-assortment-with-innovation-elements_23-2148909092.jpg?w=1380&t=st=1723273334~exp=1723273934~hmac=b17a5c5aa8781214b94a8477bc9919af804575510ea82efb334a36a2715c8347);
+     background-attachment: scroll;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
+#resumes{
+    padding: 120px;
+    height: 140vh;
+    background-image: url(Screenshot%202024-08-10%20095401.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;   
+}
+.leftside {
+            float: left;
+            width: 40%; 
+            text-align: left; /* Aligns text to the right side */
+        }
+.rightside {
+            float:right;
+            width: 33%; /* Takes up 50% of the width */
+            text-align: left; /* Aligns text to the left side */
+        }
+.lang{
+            float:left;
+             width:10%;
+            text-align: left; /* Aligns text to the right side */
+        }
+.card-container {
+           display: inline-block;
+           perspective: 1000px;
+            width: 20%;
+        }
+
+        /* Card styles */
+        .card {
+            width: 200px;
+            height: 300px;
+            position: relative;
+            transform-style:preserve-3d;
+            transition: transform 0.8s;
+        }
+
+        /* The front and back sides of the card */
+        .card-side {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden; /* Hides the back side when not visible */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Front side styling */
+        .card-front {
+            background-color:cornflowerblue;
+            color:#dff700;
+        }
+
+        /* Back side styling */
+        .card-back {
+            background-color: #b367c2;
+            color: whitesmoke;
+            transform: rotateY(180deg); /* Rotate back side 180 degrees */
+        }
+
+        /* Rotate the card when hovered */
+        .card-container:hover .card {
+            transform: rotateY(180deg);
+        }
+
+
+ 
