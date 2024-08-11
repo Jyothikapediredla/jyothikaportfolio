@@ -124,6 +124,7 @@ button:hover{
         }
 #skills{
     padding: 120px;
+    height:100vh;
     background-image: url(https://img.freepik.com/free-photo/top-view-abstract-assortment-with-innovation-elements_23-2148909092.jpg?w=1380&t=st=1723273334~exp=1723273934~hmac=b17a5c5aa8781214b94a8477bc9919af804575510ea82efb334a36a2715c8347);
      background-attachment: scroll;
     background-size: cover;
