@@ -1,7 +1,7 @@
 # jyothikaportfolio
 # My Portfolio
 
-This is my personal portfolio website.
+This is my portfolio 
 
 ## Technologies Used
 - HTML
